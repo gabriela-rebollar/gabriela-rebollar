@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
+  <style>
+    .t { font-family: 'Segoe UI Rounded', 'Nunito', 'Varela Round', 'Segoe UI', Verdana, sans-serif; }
+    .brilla { animation: brilla 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2 { animation-delay: .8s; } .b3 { animation-delay: 1.5s; }
+    @keyframes brilla { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.6); } }
+  </style>
+  <defs><clipPath id="c"><rect width="900" height="150" rx="30"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="150" fill="#FFF4F8"/>
+    <path d="M0 70 C150 30 300 110 450 70 C600 30 750 110 900 70 V150 H0Z" fill="#E6DAFF"/>
+    <path d="M0 95 C150 60 300 135 450 95 C600 60 750 135 900 95 V150 H0Z" fill="#FFD3E2"/>
+    <path d="M0 122 C150 100 300 150 450 122 C600 100 750 150 900 122 V150 H0Z" fill="#CFF1E1"/>
+  </g>
+  <text class="t" x="450" y="40" font-size="17" font-weight="800" fill="#4A2C40" text-anchor="middle">gracias por visitar mi perfil</text>
+  <path d="M310 30 c-3 -5 -10 -2 -7 3 l7 7 l7 -7 c3 -5 -4 -8 -7 -3z" fill="#FF8FB1" stroke="#4A2C40" stroke-width="1.8"/>
+  <path d="M590 30 c-3 -5 -10 -2 -7 3 l7 7 l7 -7 c3 -5 -4 -8 -7 -3z" fill="#CDB8F5" stroke="#4A2C40" stroke-width="1.8"/>
+  <path class="brilla" d="M120 52 Q120 60 128 60 Q120 60 120 68 Q120 60 112 60 Q120 60 120 52Z" fill="#FFD66B"/>
+  <path class="brilla b2" d="M780 50 Q780 58 788 58 Q780 58 780 66 Q780 58 772 58 Q780 58 780 50Z" fill="#FF8FB1"/>
+  <path class="brilla b3" d="M450 104 Q450 111 457 111 Q450 111 450 118 Q450 111 443 111 Q450 111 450 104Z" fill="#FFFFFF"/>
+</svg>

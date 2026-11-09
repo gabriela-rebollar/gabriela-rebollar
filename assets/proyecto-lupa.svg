@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="350" viewBox="0 0 440 350">
+  <style>
+    .t { font-family: 'Segoe UI Rounded', 'Nunito', 'Varela Round', 'Segoe UI', Verdana, sans-serif; }
+    .flota { animation: flota 3s ease-in-out infinite; }
+    @keyframes flota { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    .brilla { animation: brilla 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2 { animation-delay: 1s; }
+    @keyframes brilla { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.6); } }
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="10" y="10" width="420" height="326" rx="24"/></clipPath>
+    <pattern id="puntos" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="1.5" fill="#FFFFFF" opacity=".8"/></pattern>
+  </defs>
+  <rect x="16" y="17" width="420" height="326" rx="24" fill="#4A2C40" opacity=".14"/>
+  <g clip-path="url(#c)">
+    <rect x="10" y="10" width="420" height="326" fill="#FFE3EE"/>
+    <rect x="10" y="10" width="420" height="326" fill="url(#puntos)"/>
+    <rect x="10" y="10" width="420" height="38" fill="#FFC2D6"/>
+  </g>
+  <line x1="10" y1="48" x2="430" y2="48" stroke="#4A2C40" stroke-width="3"/>
+  <rect x="10" y="10" width="420" height="326" rx="24" fill="none" stroke="#4A2C40" stroke-width="3"/>
+  <circle cx="34" cy="29" r="6" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2"/>
+  <circle cx="53" cy="29" r="6" fill="#FFD66B" stroke="#4A2C40" stroke-width="2"/>
+  <circle cx="72" cy="29" r="6" fill="#8FD9B6" stroke="#4A2C40" stroke-width="2"/>
+  <text class="t" x="92" y="34" font-size="13" font-weight="800" fill="#4A2C40">lupa.app</text>
+  <rect x="300" y="17" width="116" height="24" rx="12" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/>
+  <text class="t" x="358" y="34" font-size="12.5" font-weight="800" fill="#E0649A" text-anchor="middle">ver página ↗</text>
+
+  <!-- Ilustración -->
+  <rect x="30" y="64" width="380" height="126" rx="18" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+  <g class="flota">
+    <path d="M70 108 L75 80 L93 98 Z" fill="#FFFFFF" stroke="#4A2C40" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M136 108 L131 80 L113 98 Z" fill="#FFFFFF" stroke="#4A2C40" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M76 101 L78 88 L87 97 Z" fill="#F9B4CC"/><path d="M130 101 L128 88 L119 97 Z" fill="#F9B4CC"/>
+    <ellipse cx="103" cy="128" rx="42" ry="35" fill="#FFFFFF" stroke="#4A2C40" stroke-width="3"/>
+    <ellipse cx="89" cy="125" rx="4.5" ry="5.5" fill="#4A2C40"/><ellipse cx="117" cy="125" rx="4.5" ry="5.5" fill="#4A2C40"/>
+    <circle cx="91" cy="123" r="1.6" fill="#FFFFFF"/><circle cx="119" cy="123" r="1.6" fill="#FFFFFF"/>
+    <ellipse cx="78" cy="137" rx="6.5" ry="4" fill="#F9B4CC"/><ellipse cx="128" cy="137" rx="6.5" ry="4" fill="#F9B4CC"/>
+    <path d="M97 135 q3 4 6 0 q3 4 6 0" fill="none" stroke="#4A2C40" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="146" cy="156" r="13" fill="#E9F3FF" stroke="#4A2C40" stroke-width="3"/>
+    <line x1="155" y1="166" x2="164" y2="176" stroke="#4A2C40" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+  <!-- Etiquetas de precio -->
+  <g class="t" font-weight="800" font-size="14">
+    <g transform="rotate(-6 250 100)">
+      <path d="M190 86 h86 l14 13 -14 13 h-86 a5 5 0 0 1 -5 -5 v-16 a5 5 0 0 1 5 -5z" fill="#DDF5EA" stroke="#4A2C40" stroke-width="2.4"/>
+      <circle cx="279" cy="99" r="3" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/>
+      <text x="198" y="104" fill="#2F7A5B">$1,398 ★</text>
+    </g>
+    <g transform="rotate(4 270 140)">
+      <path d="M220 126 h76 l14 13 -14 13 h-76 a5 5 0 0 1 -5 -5 v-16 a5 5 0 0 1 5 -5z" fill="#EDE3FF" stroke="#4A2C40" stroke-width="2.4"/>
+      <circle cx="299" cy="139" r="3" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/>
+      <text x="228" y="144" fill="#4A2C40">$1,486</text>
+    </g>
+    <g transform="rotate(-3 340 170)">
+      <path d="M318 154 h56 l12 12 -12 12 h-56 a5 5 0 0 1 -5 -5 v-14 a5 5 0 0 1 5 -5z" fill="#FFF3C4" stroke="#4A2C40" stroke-width="2.4"/>
+      <text x="324" y="171" fill="#4A2C40" font-size="12.5">$1,999</text>
+    </g>
+  </g>
+  <!-- Corazoncitos de calificación -->
+  <g fill="#FF8FB1" stroke="#4A2C40" stroke-width="1.6">
+    <path d="M318 92 c-2.5 -4 -8 -1.5 -5.5 2.5 l5.5 5.5 l5.5 -5.5 c2.5 -4 -3 -6.5 -5.5 -2.5z"/>
+    <path d="M338 92 c-2.5 -4 -8 -1.5 -5.5 2.5 l5.5 5.5 l5.5 -5.5 c2.5 -4 -3 -6.5 -5.5 -2.5z"/>
+    <path d="M358 92 c-2.5 -4 -8 -1.5 -5.5 2.5 l5.5 5.5 l5.5 -5.5 c2.5 -4 -3 -6.5 -5.5 -2.5z"/>
+    <path d="M378 92 c-2.5 -4 -8 -1.5 -5.5 2.5 l5.5 5.5 l5.5 -5.5 c2.5 -4 -3 -6.5 -5.5 -2.5z"/>
+    <path d="M398 92 c-2.5 -4 -8 -1.5 -5.5 2.5 l5.5 5.5 l5.5 -5.5 c2.5 -4 -3 -6.5 -5.5 -2.5z" fill="#FFE1EC"/>
+  </g>
+  <path class="brilla" d="M190 140 Q190 148 198 148 Q190 148 190 156 Q190 148 182 148 Q190 148 190 140Z" fill="#CDB8F5"/>
+  <path class="brilla b2" d="M392 128 Q392 135 399 135 Q392 135 392 142 Q392 135 385 135 Q392 135 392 128Z" fill="#FFD66B"/>
+
+  <!-- Texto -->
+  <text class="t" x="30" y="222" font-size="23" font-weight="800" fill="#4A2C40">Lupa</text>
+  <text class="t" x="92" y="222" font-size="14" font-weight="700" fill="#E0649A">agente de compras inteligentes</text>
+  <text class="t" x="30" y="250" font-size="13.5" font-weight="600" fill="#6E5262">Compara precios reales en tiendas de México,</text>
+  <text class="t" x="30" y="269" font-size="13.5" font-weight="600" fill="#6E5262">analiza reseñas y te dice qué conviene comprar.</text>
+
+  <!-- Tecnologías -->
+  <g class="t" font-size="12" font-weight="800" fill="#4A2C40" text-anchor="middle">
+    <rect x="30" y="288" width="66" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="63" y="306">Python</text>
+    <rect x="104" y="288" width="88" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="148" y="306">LangGraph</text>
+    <rect x="200" y="288" width="54" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="227" y="306">Groq</text>
+    <rect x="262" y="288" width="84" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="304" y="306">Streamlit</text>
+  </g>
+</svg>

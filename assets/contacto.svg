@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140">
+  <style>
+    .t { font-family: 'Segoe UI Rounded', 'Nunito', 'Varela Round', 'Segoe UI', Verdana, sans-serif; }
+    .flota { animation: flota 2.8s ease-in-out infinite; }
+    @keyframes flota { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+  </style>
+  <rect x="166" y="18" width="580" height="110" rx="26" fill="#4A2C40" opacity=".14"/>
+  <rect x="160" y="12" width="580" height="110" rx="26" fill="#FFF6D6" stroke="#4A2C40" stroke-width="3"/>
+
+  <!-- Sobre con carita -->
+  <g class="flota">
+    <rect x="196" y="36" width="96" height="64" rx="12" fill="#FFFFFF" stroke="#4A2C40" stroke-width="3"/>
+    <path d="M200 42 l44 32 l44 -32" fill="none" stroke="#4A2C40" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="232" cy="84" r="2.6" fill="#4A2C40"/><circle cx="256" cy="84" r="2.6" fill="#4A2C40"/>
+    <ellipse cx="225" cy="90" rx="4.5" ry="2.8" fill="#F9B4CC"/><ellipse cx="263" cy="90" rx="4.5" ry="2.8" fill="#F9B4CC"/>
+    <path d="M241 89 q3 3.5 6 0" fill="none" stroke="#4A2C40" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M290 34 c-3 -5 -10 -2 -7 3 l7 7 l7 -7 c3 -5 -4 -8 -7 -3z" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="322" y="58" font-size="22" font-weight="800" fill="#4A2C40">¿Platicamos? Escríbeme</text>
+  <rect x="320" y="72" width="390" height="34" rx="17" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+  <text class="t" x="515" y="95" font-size="16" font-weight="800" fill="#E0649A" text-anchor="middle">rebollargabriela462@gmail.com</text>
+</svg>

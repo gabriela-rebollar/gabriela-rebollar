@@ -1,94 +1,50 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD1DC,100:E0C3FC&height=170&section=header&text=Hola,%20soy%20Gabriela%20%E2%9C%A8&fontColor=4A2C40&fontSize=42&fontAlignY=38" width="100%"/>
-
-### 🌸 Estudiante de Inteligencia Artificial y desarrollo web
-Me gusta crear aplicaciones **útiles, bonitas y fáciles de usar**, donde la tecnología se siente amigable 💕
-
-</div>
-
----
-
-## 🎀 Sobre mí
-
-- 💻 Desarrollo proyectos de **IA, agentes inteligentes y sistemas web**
-- 🧠 Aprendiendo sobre **LLMs, LangGraph, Laravel y bases de datos**
-- 🗄️ Me interesa el **diseño de bases de datos**: normalización, integridad y permisos
-- 🎨 Me encanta cuidar el **diseño** tanto como el código
-- 🇲🇽 Desde México
-
----
-
-## 🌷 Mis proyectos
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🐱 Lupa: Agente de compras inteligentes
-Agente de IA que compara **precios reales** en tiendas de México, analiza reseñas y recomienda la mejor compra. Muestra paso a paso qué herramienta usa el agente.
-
-`Python` `LangGraph` `Groq` `Streamlit`
-
-🔗 [**Ver página**](https://lupa-compras-inteligentes.streamlit.app/) · 📂 [**Código**](https://github.com/gabriela-rebollar/agente-compras-inteligentes)
-
-</td>
-<td width="50%" valign="top">
-
-### 💪 IronGym: Sistema web para gimnasio
-Página completa de gimnasio: membresías, reservación de clases, tienda con carrito, seguimiento de entrenamiento, comunidad con reseñas, **entrada con código QR** y panel de administración.
-
-`Laravel` `PHP` `MySQL` `JavaScript` `CSS`
-
-🔗 [**Ver página**](https://irongym.alwaysdata.net) · 📂 [**Código**](https://github.com/gabriela-rebollar/irongym)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🧸 Tecnologías que uso
-
-<p>
-<img src="https://img.shields.io/badge/Python-FFD1DC?style=for-the-badge&logo=python&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/PHP-F1EAFF?style=for-the-badge&logo=php&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/Laravel-FFE0E3?style=for-the-badge&logo=laravel&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/MySQL-E3F7EE?style=for-the-badge&logo=mysql&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/JavaScript-FFF4B8?style=for-the-badge&logo=javascript&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/HTML-FFE0E3?style=for-the-badge&logo=html5&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/CSS-E0C3FC?style=for-the-badge&logo=css&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/LangChain-E3F7EE?style=for-the-badge&logo=langchain&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/Streamlit-FFE1EC?style=for-the-badge&logo=streamlit&logoColor=4A2C40"/>
-<img src="https://img.shields.io/badge/Git-F1EAFF?style=for-the-badge&logo=git&logoColor=4A2C40"/>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Hola, soy Gabriela Rebollar"/>
 </p>
 
----
-
-## 💌 Contacto
-
-<p>
-<a href="mailto:rebollargabriela462@gmail.com"><img src="https://img.shields.io/badge/rebollargabriela462@gmail.com-FFD1DC?style=for-the-badge&logo=gmail&logoColor=4A2C40"/></a>
+<p align="center">
+  <img src="assets/titulo-sobre-mi.svg" width="100%" alt="Sobre mí"/>
+  <img src="assets/sobre-mi.svg" width="100%" alt="Proyectos de IA, siempre aprendiendo, bases de datos y diseño con cariño"/>
 </p>
 
-<div align="center">
+<p align="center">
+  <img src="assets/titulo-proyectos.svg" width="100%" alt="Mis proyectos"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C3FC,100:FFD1DC&height=100&section=footer" width="100%"/>
+<p align="center">
+  <a href="https://lupa-compras-inteligentes.streamlit.app/"><img src="assets/proyecto-lupa.svg" width="49%" alt="Lupa: agente de compras inteligentes"/></a>
+  <a href="https://irongym.alwaysdata.net"><img src="assets/proyecto-irongym.svg" width="49%" alt="IronGym: sistema web para gimnasio"/></a>
+</p>
 
-<sub>✨ Gracias por visitar mi perfil ✨</sub>
+<p align="center">
+  <a href="https://github.com/gabriela-rebollar/agente-compras-inteligentes"><img src="https://img.shields.io/badge/c%C3%B3digo%20de%20Lupa-FFC2D6?style=for-the-badge&logo=github&logoColor=4A2C40" alt="Código de Lupa"/></a>
+  &nbsp;
+  <a href="https://github.com/gabriela-rebollar/irongym"><img src="https://img.shields.io/badge/c%C3%B3digo%20de%20IronGym-DCCBFF?style=for-the-badge&logo=github&logoColor=4A2C40" alt="Código de IronGym"/></a>
+</p>
 
-</div>
-<!--
-**gabriela-rebollar/gabriela-rebollar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="assets/titulo-tecnologias.svg" width="100%" alt="Tecnologías que uso"/>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-FFD1DC?style=for-the-badge&logo=python&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/PHP-EDE3FF?style=for-the-badge&logo=php&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/Laravel-FFE0E3?style=for-the-badge&logo=laravel&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/MySQL-DDF5EA?style=for-the-badge&logo=mysql&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/JavaScript-FFF3C4?style=for-the-badge&logo=javascript&logoColor=4A2C40"/>
+  <br/>
+  <img src="https://img.shields.io/badge/HTML-FFE0E3?style=for-the-badge&logo=html5&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/CSS-E0C3FC?style=for-the-badge&logo=css&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/LangChain-DDF5EA?style=for-the-badge&logo=langchain&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/Streamlit-FFD1DC?style=for-the-badge&logo=streamlit&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/Git-EDE3FF?style=for-the-badge&logo=git&logoColor=4A2C40"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="assets/titulo-contacto.svg" width="100%" alt="Contacto"/>
+  <a href="mailto:rebollargabriela462@gmail.com"><img src="assets/contacto.svg" width="100%" alt="Escríbeme: rebollargabriela462@gmail.com"/></a>
+</p>
+
+<p align="center">
+  <img src="assets/pie.svg" width="100%" alt="Gracias por visitar mi perfil"/>
+</p>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="350" viewBox="0 0 440 350">
+  <style>
+    .t { font-family: 'Segoe UI Rounded', 'Nunito', 'Varela Round', 'Segoe UI', Verdana, sans-serif; }
+    .flota { animation: flota 3s ease-in-out infinite; }
+    @keyframes flota { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    .brilla { animation: brilla 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2 { animation-delay: 1s; }
+    @keyframes brilla { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.6); } }
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="10" y="10" width="420" height="326" rx="24"/></clipPath>
+    <pattern id="puntos" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="1.5" fill="#FFFFFF" opacity=".8"/></pattern>
+  </defs>
+  <rect x="16" y="17" width="420" height="326" rx="24" fill="#4A2C40" opacity=".14"/>
+  <g clip-path="url(#c)">
+    <rect x="10" y="10" width="420" height="326" fill="#EEE6FF"/>
+    <rect x="10" y="10" width="420" height="326" fill="url(#puntos)"/>
+    <rect x="10" y="10" width="420" height="38" fill="#DCCBFF"/>
+  </g>
+  <line x1="10" y1="48" x2="430" y2="48" stroke="#4A2C40" stroke-width="3"/>
+  <rect x="10" y="10" width="420" height="326" rx="24" fill="none" stroke="#4A2C40" stroke-width="3"/>
+  <circle cx="34" cy="29" r="6" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2"/>
+  <circle cx="53" cy="29" r="6" fill="#FFD66B" stroke="#4A2C40" stroke-width="2"/>
+  <circle cx="72" cy="29" r="6" fill="#8FD9B6" stroke="#4A2C40" stroke-width="2"/>
+  <text class="t" x="92" y="34" font-size="13" font-weight="800" fill="#4A2C40">irongym</text>
+  <rect x="300" y="17" width="116" height="24" rx="12" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/>
+  <text class="t" x="358" y="34" font-size="12.5" font-weight="800" fill="#8A63D2" text-anchor="middle">ver página ↗</text>
+
+  <!-- Ilustración -->
+  <rect x="30" y="64" width="380" height="126" rx="18" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+
+  <!-- Calendario de clases -->
+  <g transform="translate(52 86)">
+    <rect width="78" height="78" rx="12" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <path d="M0 22 v-10 a12 12 0 0 1 12 -12 h54 a12 12 0 0 1 12 12 v10 z" fill="#FFC2D6" stroke="#4A2C40" stroke-width="2.5"/>
+    <g fill="#F3E9EE"><rect x="10" y="32" width="14" height="12" rx="3"/><rect x="32" y="32" width="14" height="12" rx="3"/><rect x="54" y="32" width="14" height="12" rx="3"/>
+    <rect x="10" y="52" width="14" height="12" rx="3"/><rect x="54" y="52" width="14" height="12" rx="3"/></g>
+    <rect x="32" y="52" width="14" height="12" rx="3" fill="#8FD9B6" stroke="#4A2C40" stroke-width="1.6"/>
+  </g>
+
+  <!-- Mancuerna sonriente -->
+  <g class="flota">
+    <rect x="166" y="120" width="108" height="16" rx="8" fill="#DCCBFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <rect x="150" y="98" width="26" height="60" rx="10" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2.8"/>
+    <rect x="264" y="98" width="26" height="60" rx="10" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2.8"/>
+    <rect x="138" y="108" width="14" height="40" rx="6" fill="#FFC2D6" stroke="#4A2C40" stroke-width="2.5"/>
+    <rect x="288" y="108" width="14" height="40" rx="6" fill="#FFC2D6" stroke="#4A2C40" stroke-width="2.5"/>
+    <circle cx="220" cy="128" r="22" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.8"/>
+    <ellipse cx="212" cy="125" rx="3.4" ry="4.2" fill="#4A2C40"/><ellipse cx="228" cy="125" rx="3.4" ry="4.2" fill="#4A2C40"/>
+    <ellipse cx="205" cy="134" rx="4.5" ry="3" fill="#F9B4CC"/><ellipse cx="235" cy="134" rx="4.5" ry="3" fill="#F9B4CC"/>
+    <path d="M216 132 q4 4.5 8 0" fill="none" stroke="#4A2C40" stroke-width="2.3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Código QR -->
+  <g transform="translate(318 88)">
+    <rect width="72" height="72" rx="10" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <g fill="#4A2C40">
+      <rect x="9" y="9" width="18" height="18" rx="3"/><rect x="45" y="9" width="18" height="18" rx="3"/><rect x="9" y="45" width="18" height="18" rx="3"/>
+      <rect x="33" y="33" width="7" height="7" rx="1.5"/><rect x="45" y="45" width="7" height="7" rx="1.5"/><rect x="56" y="56" width="7" height="7" rx="1.5"/>
+      <rect x="33" y="50" width="7" height="7" rx="1.5"/><rect x="50" y="33" width="7" height="7" rx="1.5"/>
+    </g>
+    <g fill="#FFFFFF"><rect x="14" y="14" width="8" height="8" rx="2"/><rect x="50" y="14" width="8" height="8" rx="2"/><rect x="14" y="50" width="8" height="8" rx="2"/></g>
+  </g>
+  <path class="brilla" d="M300 74 Q300 82 308 82 Q300 82 300 90 Q300 82 292 82 Q300 82 300 74Z" fill="#FFD66B"/>
+  <path class="brilla b2" d="M148 172 Q148 179 155 179 Q148 179 148 186 Q148 179 141 179 Q148 179 148 172Z" fill="#8FD9B6"/>
+
+  <!-- Texto -->
+  <text class="t" x="30" y="222" font-size="23" font-weight="800" fill="#4A2C40">IronGym</text>
+  <text class="t" x="132" y="222" font-size="14" font-weight="700" fill="#8A63D2">sistema web para gimnasio</text>
+  <text class="t" x="30" y="250" font-size="13.5" font-weight="600" fill="#6E5262">Membresías, clases, tienda, comunidad,</text>
+  <text class="t" x="30" y="269" font-size="13.5" font-weight="600" fill="#6E5262">entrada con código QR y panel de admin.</text>
+
+  <!-- Tecnologías -->
+  <g class="t" font-size="12" font-weight="800" fill="#4A2C40" text-anchor="middle">
+    <rect x="30" y="288" width="68" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="64" y="306">Laravel</text>
+    <rect x="106" y="288" width="48" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="130" y="306">PHP</text>
+    <rect x="162" y="288" width="64" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="194" y="306">MySQL</text>
+    <rect x="234" y="288" width="88" height="26" rx="13" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2"/><text x="278" y="306">JavaScript</text>
+  </g>
+</svg>
