@@ -40,7 +40,7 @@
   <!-- Texto -->
   <text class="t" x="72" y="122" font-size="26" font-weight="800" fill="#E0649A">¡Hola! soy</text>
   <text class="t" x="70" y="172" font-size="46" font-weight="800" fill="#4A2C40">Gabriela Rebollar</text>
-  <text class="t" x="72" y="206" font-size="18" font-weight="600" fill="#7A5A6C">Estudiante de IA y desarrollo web · México</text>
+  <text class="t" x="72" y="206" font-size="18" font-weight="600" fill="#7A5A6C">Estudiante de Ingeniería en Software · México</text>
 
   <!-- Etiquetas -->
   <g class="t" font-size="13" font-weight="800" fill="#4A2C40" text-anchor="middle">

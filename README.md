@@ -12,6 +12,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/gabriela-rebollar/ExplosionParalela"><img src="assets/proyecto-explosion.svg" width="100%" alt="Explosión Paralela: videojuego 2D hecho en Unity"/></a>
+</p>
+
+<p align="center">
   <a href="https://lupa-compras-inteligentes.streamlit.app/"><img src="assets/proyecto-lupa.svg" width="49%" alt="Lupa: agente de compras inteligentes"/></a>
   <a href="https://irongym.alwaysdata.net"><img src="assets/proyecto-irongym.svg" width="49%" alt="IronGym: sistema web para gimnasio"/></a>
 </p>
@@ -20,6 +24,8 @@
   <a href="https://github.com/gabriela-rebollar/agente-compras-inteligentes"><img src="https://img.shields.io/badge/c%C3%B3digo%20de%20Lupa-FFC2D6?style=for-the-badge&logo=github&logoColor=4A2C40" alt="Código de Lupa"/></a>
   &nbsp;
   <a href="https://github.com/gabriela-rebollar/irongym"><img src="https://img.shields.io/badge/c%C3%B3digo%20de%20IronGym-DCCBFF?style=for-the-badge&logo=github&logoColor=4A2C40" alt="Código de IronGym"/></a>
+  &nbsp;
+  <a href="https://github.com/gabriela-rebollar/ExplosionParalela"><img src="https://img.shields.io/badge/c%C3%B3digo%20de%20Explosi%C3%B3n%20Paralela-BFEBD7?style=for-the-badge&logo=github&logoColor=4A2C40" alt="Código de Explosión Paralela"/></a>
 </p>
 
 <p align="center">
@@ -32,7 +38,9 @@
   <img src="https://img.shields.io/badge/Laravel-FFE0E3?style=for-the-badge&logo=laravel&logoColor=4A2C40"/>
   <img src="https://img.shields.io/badge/MySQL-DDF5EA?style=for-the-badge&logo=mysql&logoColor=4A2C40"/>
   <img src="https://img.shields.io/badge/JavaScript-FFF3C4?style=for-the-badge&logo=javascript&logoColor=4A2C40"/>
+  <img src="https://img.shields.io/badge/Unity-DDF5EA?style=for-the-badge&logo=unity&logoColor=4A2C40"/>
   <br/>
+  <img src="https://img.shields.io/badge/C%23-FFD1DC?style=for-the-badge&logo=sharp&logoColor=4A2C40"/>
   <img src="https://img.shields.io/badge/HTML-FFE0E3?style=for-the-badge&logo=html5&logoColor=4A2C40"/>
   <img src="https://img.shields.io/badge/CSS-E0C3FC?style=for-the-badge&logo=css&logoColor=4A2C40"/>
   <img src="https://img.shields.io/badge/LangChain-DDF5EA?style=for-the-badge&logo=langchain&logoColor=4A2C40"/>
