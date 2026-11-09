@@ -1,48 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310">
   <style>.t { font-family: 'Segoe UI Rounded', 'Nunito', 'Varela Round', 'Segoe UI', Verdana, sans-serif; }</style>
   <defs>
     <pattern id="puntos" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="10" cy="10" r="1.6" fill="#F7CFDD"/>
     </pattern>
   </defs>
-  <rect x="36" y="16" width="840" height="200" rx="26" fill="#4A2C40" opacity=".12"/>
-  <rect x="30" y="10" width="840" height="200" rx="26" fill="#FFF7FA" stroke="#4A2C40" stroke-width="3"/>
-  <rect x="30" y="10" width="840" height="200" rx="26" fill="url(#puntos)"/>
+  <rect x="36" y="16" width="840" height="280" rx="26" fill="#4A2C40" opacity=".12"/>
+  <rect x="30" y="10" width="840" height="280" rx="26" fill="#FFF7FA" stroke="#4A2C40" stroke-width="3"/>
+  <rect x="30" y="10" width="840" height="280" rx="26" fill="url(#puntos)"/>
 
-  <!-- 1. Proyectos de IA -->
-  <g transform="translate(70 40)">
+  <!-- 1. Ingeniería en Software -->
+  <g transform="translate(70 34)">
     <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
     <circle cx="36" cy="32" r="20" fill="#FFC2D6" stroke="#4A2C40" stroke-width="2.5"/>
-    <path d="M30 26 l-7 6 l7 6 M42 26 l7 6 l-7 6" fill="none" stroke="#4A2C40" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Proyectos de IA</text>
-    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Agentes inteligentes y sistemas web</text>
+    <rect x="25" y="23" width="22" height="15" rx="3" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2"/>
+    <path d="M21 42 h30" stroke="#4A2C40" stroke-width="2.6" stroke-linecap="round"/>
+    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Ingeniería en Software</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">POO, estructuras de datos y paralelismo</text>
   </g>
 
-  <!-- 2. Siempre aprendiendo -->
-  <g transform="translate(460 40)">
+  <!-- 2. Lenguajes -->
+  <g transform="translate(460 34)">
     <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
     <circle cx="36" cy="32" r="20" fill="#DCCBFF" stroke="#4A2C40" stroke-width="2.5"/>
-    <path d="M24 27 l12 -6 l12 6 l-12 6 z M29 30 v6 c4 4 10 4 14 0 v-6" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2" stroke-linejoin="round"/>
-    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Siempre aprendiendo</text>
-    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">LLMs, Laravel, Unity y SQL</text>
+    <path d="M30 26 l-7 6 l7 6 M42 26 l7 6 l-7 6" fill="none" stroke="#4A2C40" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Lenguajes</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Java, C / C++, Python, C# y PHP</text>
   </g>
 
-  <!-- 3. Bases de datos -->
-  <g transform="translate(70 120)">
+  <!-- 3. Inteligencia artificial -->
+  <g transform="translate(70 114)">
+    <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <circle cx="36" cy="32" r="20" fill="#FFE7A3" stroke="#4A2C40" stroke-width="2.5"/>
+    <path d="M36 20 Q36 32 48 32 Q36 32 36 44 Q36 32 24 32 Q36 32 36 20Z" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2" stroke-linejoin="round"/>
+    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Inteligencia artificial</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Agentes, LLMs y LangGraph</text>
+  </g>
+
+  <!-- 4. Bases de datos -->
+  <g transform="translate(460 114)">
     <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
     <circle cx="36" cy="32" r="20" fill="#BFEBD7" stroke="#4A2C40" stroke-width="2.5"/>
     <ellipse cx="36" cy="24" rx="10" ry="4" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2"/>
     <path d="M26 24 v16 c0 5 20 5 20 0 v-16 M26 32 c0 5 20 5 20 0" fill="none" stroke="#4A2C40" stroke-width="2.2"/>
     <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Bases de datos</text>
-    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Normalización, integridad y permisos</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Diseño, normalización y SQL</text>
   </g>
 
-  <!-- 4. Diseño con cariño -->
-  <g transform="translate(460 120)">
+  <!-- 5. Herramientas -->
+  <g transform="translate(70 194)">
     <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
-    <circle cx="36" cy="32" r="20" fill="#FFE7A3" stroke="#4A2C40" stroke-width="2.5"/>
-    <path d="M36 42 C26 35 25 27 30 25 C33 24 35 26 36 28 C37 26 39 24 42 25 C47 27 46 35 36 42Z" fill="#FF8FB1" stroke="#4A2C40" stroke-width="2.2" stroke-linejoin="round"/>
-    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Diseño con cariño</text>
-    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Apps útiles, bonitas y fáciles de usar</text>
+    <circle cx="36" cy="32" r="20" fill="#DCEBFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <path d="M42 22 a6 6 0 0 0 -7 8 l-10 10 a2.5 2.5 0 0 0 4 4 l10 -10 a6 6 0 0 0 8 -7 l-4 4 l-3 -1 l-1 -3z" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2" stroke-linejoin="round"/>
+    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Herramientas</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">NetBeans, VS Code, Unity, XAMPP y Git</text>
+  </g>
+
+  <!-- 6. Arte y diseño -->
+  <g transform="translate(460 194)">
+    <rect width="370" height="64" rx="20" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.5"/>
+    <circle cx="36" cy="32" r="20" fill="#FFD9E6" stroke="#4A2C40" stroke-width="2.5"/>
+    <!-- Paleta de pintura -->
+    <path d="M36 21 c-9 0 -15 6 -15 12 c0 6 5 9 10 9 c3 0 3 -3 2 -5 c-1 -2 0 -4 3 -4 h4 c5 0 8 -3 8 -6 c0 -4 -5 -6 -12 -6z" fill="#FFFFFF" stroke="#4A2C40" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="29" cy="29" r="2.3" fill="#FF8FB1"/><circle cx="36" cy="26" r="2.3" fill="#CDB8F5"/><circle cx="43" cy="28" r="2.3" fill="#8FD9B6"/><circle cx="27" cy="36" r="2.3" fill="#FFD66B"/>
+    <text class="t" x="68" y="28" font-size="16" font-weight="800" fill="#4A2C40">Arte y diseño</text>
+    <text class="t" x="68" y="48" font-size="13.5" font-weight="600" fill="#7A5A6C">Pinto con acrílico y acuarela</text>
   </g>
 </svg>

@@ -40,18 +40,19 @@
   <!-- Texto -->
   <text class="t" x="72" y="122" font-size="26" font-weight="800" fill="#E0649A">¡Hola! soy</text>
   <text class="t" x="70" y="172" font-size="46" font-weight="800" fill="#4A2C40">Gabriela Rebollar</text>
-  <text class="t" x="72" y="206" font-size="18" font-weight="600" fill="#7A5A6C">Estudiante de Ingeniería en Software · México</text>
+  <text class="t" x="72" y="200" font-size="17" font-weight="700" fill="#7A5A6C">Estudiante de Ingeniería en Software · 7.º semestre</text>
+  <text class="t" x="72" y="221" font-size="13.5" font-weight="600" fill="#9A7A8C">UAEMéx · Centro Universitario UAEM Tianguistenco · México</text>
 
   <!-- Etiquetas -->
   <g class="t" font-size="13" font-weight="800" fill="#4A2C40" text-anchor="middle">
-    <rect x="70" y="224" width="54" height="28" rx="14" fill="#FFE1EC" stroke="#4A2C40" stroke-width="2"/>
-    <text x="97" y="243">IA</text>
-    <rect x="132" y="224" width="96" height="28" rx="14" fill="#EDE3FF" stroke="#4A2C40" stroke-width="2"/>
-    <text x="180" y="243">Agentes</text>
-    <rect x="236" y="224" width="134" height="28" rx="14" fill="#DDF5EA" stroke="#4A2C40" stroke-width="2"/>
-    <text x="303" y="243">Desarrollo web</text>
-    <rect x="378" y="224" width="134" height="28" rx="14" fill="#FFF3C4" stroke="#4A2C40" stroke-width="2"/>
-    <text x="445" y="243">Bases de datos</text>
+    <rect x="70" y="232" width="122" height="27" rx="13.5" fill="#FFE1EC" stroke="#4A2C40" stroke-width="2"/>
+    <text x="131" y="250">Desarrollo web</text>
+    <rect x="200" y="232" width="54" height="27" rx="13.5" fill="#EDE3FF" stroke="#4A2C40" stroke-width="2"/>
+    <text x="227" y="250">IA</text>
+    <rect x="262" y="232" width="110" height="27" rx="13.5" fill="#DDF5EA" stroke="#4A2C40" stroke-width="2"/>
+    <text x="317" y="250">Videojuegos</text>
+    <rect x="380" y="232" width="128" height="27" rx="13.5" fill="#FFF3C4" stroke="#4A2C40" stroke-width="2"/>
+    <text x="444" y="250">Bases de datos</text>
   </g>
 
   <!-- Nube -->
